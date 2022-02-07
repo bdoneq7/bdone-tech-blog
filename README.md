@@ -20,7 +20,7 @@ To create a CMS-style blog site where users can publish articles, blog posts, an
 * [Questions](#questions)
 
 ## Screenshot
-![Alt Brian Done Tech Blog Screenshot](https://github.com/bdoneq7/ecommerce-back-end/blob/main/assets/images/screenshot.PNG?raw=true "Brian Done Tech Blog Screenshot")
+![Alt Brian Done Tech Blog Screenshot](https://github.com/bdoneq7/bdone-tech-blog/blob/main/assets/images/screenshot.PNG?raw=true "Brian Done Tech Blog Screenshot")
 
 ## Installation 
 Please clone the repo to your local machine, install Node, Express, DotEnv, MySql, Sequelize, and Handlebars.
