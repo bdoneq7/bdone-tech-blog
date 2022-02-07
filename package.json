@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-session-sequelize": "^7.1.2",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "express-handlebars": "^6.0.2",
+    "express-session": "^1.17.2",
+    "handlebars": "^4.7.7",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.15",
+    "sequelize": "^6.15.1"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "bdone-tech-blog",
+  "description": "To create a CMS-style blog site where users can publish articles, blog posts, and make comments.",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bdoneq7/bdone-tech-blog.git"
+  },
+  "author": "Brian Done",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bdoneq7/bdone-tech-blog/issues"
+  },
+  "homepage": "https://github.com/bdoneq7/bdone-tech-blog#readme"
+}
