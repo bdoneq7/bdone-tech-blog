@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brian's Tech Blog</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+
+<body>
+
+  <!-- Wrapper Start -->
+  <div class="wrapper">
+
+    <!-- Header Start -->
+    <header>
+      <!-- Logo Start -->
+      <div class="header-image">
+        <img src="../images/header.png" alt="Brian's Tech Blog" title="Brian's Tech Blog">
+      </div>
+      <!-- Logo End -->
+    </header>
+    <!-- Header End -->
+
+    <!-- Navigation Start -->
+    <nav class="navbar is-link" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a role="button" class="navbar-burger burger" id="burger" aria-label="menu" aria-expanded="false"
+          data-target="navbarBasicExample" onclick="toggleBurger()">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <div class="navbar-item">
+          <a href="/" class="navbar-item button is-link">
+            Home
+          </a>
+          </div class="navbar-item">
+          <div class="navbar-item">
+          <a href="/dashboard" class="navbar-item button is-link">
+            Dashboard
+          </a>
+          </div>
+        </div>
+
+        <div class="navbar-end">
+          <div class="navbar-item">
+            {{#if loggedIn}}
+            <a class="navbar-item button is-warning" id="logout"><strong>Logout</strong></a>
+            {{else}}
+            <a href="/login" class="navbar-item button is-link">
+              Login
+            </a>
+            {{/if}}
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Navigation End -->
+
+    <!-- Main Start -->
+    <main>
+      {{{ body }}}
+    </main>
+    <!-- Main End -->
+
+    <!-- Footer Start -->
+    <footer>
+      <h2>&copy 2021 Brian's Tech Blog</h2>
+    </footer>
+    <!-- Footer End -->
+
+  </div>
+  <!-- Wrapper End -->
+  <script src="/javascript/burgerMenu.js"></script>
+  {{#if loggedIn}}
+  <script src="/javascript/logout.js"></script>
+  {{/if}}
+</body>
+
+</html>
