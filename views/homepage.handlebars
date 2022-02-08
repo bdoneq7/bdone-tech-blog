@@ -1,0 +1,17 @@
+<ol class="post-list">
+  {{#each posts as |post|}}
+  <li>
+    <div class="post-section">
+
+    <div class="post-photo">  
+    <img src="../images/post_icon.jpg" alt="Post" title="Post">
+    </div>
+
+    <div class="post-info">
+    {{> post-info post }}
+    </div>
+
+    </div>
+  </li>
+  {{/each}}
+</ol>
