@@ -9,7 +9,7 @@
     "handlebars": "^4.7.7",
     "mysql2": "^2.3.3",
     "nodemon": "^2.0.15",
-    "sequelize": "^6.15.1"
+    "sequelize": "^6.16.1"
   },
   "scripts": {
     "start": "node server.js",
@@ -19,7 +19,6 @@
   "description": "To create a CMS-style blog site where users can publish articles, blog posts, and make comments.",
   "version": "1.0.0",
   "main": "server.js",
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bdoneq7/bdone-tech-blog.git"

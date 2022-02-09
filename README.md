@@ -7,7 +7,7 @@ To create a CMS-style blog site where users can publish articles, blog posts, an
 * JavaScript
 * Node
 * Express
-* MySQL
+* MySQL2
 * Sequelize
 * Handlebars
 
