@@ -12,7 +12,8 @@
     "sequelize": "^6.15.1"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "seed": "node seeds/index.js"
   },
   "name": "bdone-tech-blog",
   "description": "To create a CMS-style blog site where users can publish articles, blog posts, and make comments.",
