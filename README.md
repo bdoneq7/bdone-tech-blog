@@ -36,7 +36,7 @@ Please clone the repo to your local machine, install the following:
 * dotenv
 
 ## Deployed-Application
-Heroku Link
+https://bdone-tech-blog.herokuapp.com/
 
 ## License 
 Using the MIT License.
