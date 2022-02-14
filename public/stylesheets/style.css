@@ -229,7 +229,7 @@
     display: flex;
     justify-content: center;
     padding: 1%;
-    font-size: 110%;
+    font-size: 100%;
   
   }
   
@@ -248,7 +248,7 @@
   .post-photo {
     flex: 0 0 80px;
     height: 80px;
-    margin: 10px 10px 0px 10px;
+    margin: 10px 10px 10px 10px;
   }
   
   .post-info {
@@ -286,17 +286,3 @@
     background-color: var(--lighterblue);
   }
   
-  /*#dashboard {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-  #home {
-    padding-bottom: 10px;
-  }
-  /*.navbar-item {
-    background-color: #485fc7;
-  }
-  .navbar {
-    background-color: #485fc7;
-    color: white;
-  }*/
